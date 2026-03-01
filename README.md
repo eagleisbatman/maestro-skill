@@ -44,16 +44,19 @@ The skill activates when you mention:
 
 ```
 maestro-skill/
-├── plugin.json              # Plugin manifest
-├── skills/
-│   └── maestro-testing.md   # Main skill (YAML frontmatter + content)
-└── references/
-    ├── react-native.md      # React Native / Expo specifics
-    ├── flutter.md           # Flutter specifics
-    ├── native-android.md    # Native Android specifics
-    ├── native-ios.md        # Native iOS specifics
-    ├── hybrid.md            # Capacitor / Ionic / Cordova / PWA
-    └── qa-workflows.md      # QA workflows, reports, CI/CD
+├── .claude-plugin/
+│   ├── marketplace.json     # Marketplace descriptor
+│   └── plugin.json          # Plugin manifest
+└── skills/
+    └── maestro-testing/
+        ├── SKILL.md          # Main skill (YAML frontmatter + content)
+        └── references/
+            ├── react-native.md
+            ├── flutter.md
+            ├── native-android.md
+            ├── native-ios.md
+            ├── hybrid.md
+            └── qa-workflows.md
 ```
 
 ## Prerequisites

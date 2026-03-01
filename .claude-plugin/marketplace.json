@@ -1,0 +1,49 @@
+{
+  "name": "maestro-testing",
+  "owner": {
+    "name": "Eagle (Gautam Mandewalker)",
+    "email": "mandewalkergautam@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugin for generating production-ready Maestro YAML test flows for mobile and web apps. Covers React Native, Expo, Flutter, native Android, native iOS, hybrid frameworks, and CI/CD integration.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "maestro-testing",
+      "source": "./",
+      "description": "Generate and manage Maestro test flows for mobile (Android, iOS) and web apps. Covers React Native, Expo, Flutter, Swift, Kotlin, Jetpack Compose, SwiftUI, UIKit, Capacitor, Ionic, and web desktop testing with CI/CD integration, QA workflows, and visual regression.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Eagle (Gautam Mandewalker)",
+        "url": "https://github.com/eagleisbatman"
+      },
+      "keywords": [
+        "maestro",
+        "mobile-testing",
+        "e2e-testing",
+        "test-automation",
+        "react-native",
+        "expo",
+        "flutter",
+        "swiftui",
+        "uikit",
+        "jetpack-compose",
+        "kotlin",
+        "swift",
+        "capacitor",
+        "ionic",
+        "cordova",
+        "pwa",
+        "yaml",
+        "ci-cd",
+        "qa",
+        "visual-regression",
+        "maestro-cloud",
+        "eas-workflows"
+      ],
+      "category": "testing",
+      "strict": false
+    }
+  ]
+}

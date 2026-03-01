@@ -1,0 +1,37 @@
+{
+  "name": "maestro-testing",
+  "version": "1.0.0",
+  "description": "Generate and manage Maestro test flows for mobile (Android, iOS) and web apps. Covers React Native, Expo, Flutter, Swift, Kotlin, Jetpack Compose, SwiftUI, UIKit, Capacitor, Ionic, and web desktop testing.",
+  "author": {
+    "name": "Eagle (Gautam Mandewalker)",
+    "email": "mandewalkergautam@gmail.com",
+    "url": "https://github.com/eagleisbatman"
+  },
+  "homepage": "https://github.com/eagleisbatman/maestro-skill",
+  "repository": "https://github.com/eagleisbatman/maestro-skill",
+  "license": "MIT",
+  "keywords": [
+    "maestro",
+    "mobile-testing",
+    "e2e-testing",
+    "test-automation",
+    "react-native",
+    "expo",
+    "flutter",
+    "swiftui",
+    "uikit",
+    "jetpack-compose",
+    "kotlin",
+    "swift",
+    "capacitor",
+    "ionic",
+    "cordova",
+    "pwa",
+    "yaml",
+    "ci-cd",
+    "qa",
+    "visual-regression",
+    "maestro-cloud",
+    "eas-workflows"
+  ]
+}

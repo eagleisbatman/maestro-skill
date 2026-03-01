@@ -20,15 +20,15 @@ curl -fsSL "https://get.maestro.mobile.dev" | bash
 ## Before Generating Flows
 
 Read the appropriate reference file for the user's framework:
-- **React Native / Expo** → `${CLAUDE_PLUGIN_ROOT}/references/react-native.md`
-- **Flutter** → `${CLAUDE_PLUGIN_ROOT}/references/flutter.md`
-- **Native Android (Kotlin/Java/Jetpack Compose)** → `${CLAUDE_PLUGIN_ROOT}/references/native-android.md`
-- **Native iOS (Swift/SwiftUI/UIKit)** → `${CLAUDE_PLUGIN_ROOT}/references/native-ios.md`
-- **Hybrid (Capacitor/Ionic/Cordova/PWA)** → `${CLAUDE_PLUGIN_ROOT}/references/hybrid.md`
+- **React Native / Expo** → `${CLAUDE_PLUGIN_ROOT}/skills/maestro-testing/references/react-native.md`
+- **Flutter** → `${CLAUDE_PLUGIN_ROOT}/skills/maestro-testing/references/flutter.md`
+- **Native Android (Kotlin/Java/Jetpack Compose)** → `${CLAUDE_PLUGIN_ROOT}/skills/maestro-testing/references/native-android.md`
+- **Native iOS (Swift/SwiftUI/UIKit)** → `${CLAUDE_PLUGIN_ROOT}/skills/maestro-testing/references/native-ios.md`
+- **Hybrid (Capacitor/Ionic/Cordova/PWA)** → `${CLAUDE_PLUGIN_ROOT}/skills/maestro-testing/references/hybrid.md`
 - **Web Desktop Browser** → use `url:` instead of `appId:`, same commands. No separate reference needed.
-- **QA workflows, reports, CI/CD** → `${CLAUDE_PLUGIN_ROOT}/references/qa-workflows.md`
+- **QA workflows, reports, CI/CD** → `${CLAUDE_PLUGIN_ROOT}/skills/maestro-testing/references/qa-workflows.md`
 
-If framework is unknown, ask. Default to `${CLAUDE_PLUGIN_ROOT}/references/react-native.md`.
+If framework is unknown, ask. Default to `${CLAUDE_PLUGIN_ROOT}/skills/maestro-testing/references/react-native.md`.
 
 ---
 
@@ -410,7 +410,7 @@ env:
 
 ## 9. Test Reports & Output
 
-Read `${CLAUDE_PLUGIN_ROOT}/references/qa-workflows.md` for complete report generation details. Summary:
+Read `${CLAUDE_PLUGIN_ROOT}/skills/maestro-testing/references/qa-workflows.md` for complete report generation details. Summary:
 
 ### Report Formats
 ```bash
@@ -472,7 +472,7 @@ maestro mcp    # starts MCP server (bundled with CLI)
 
 ### EAS Workflows (Expo / React Native — Recommended)
 
-Expo projects use EAS Workflows with a first-class `type: maestro` job — see `${CLAUDE_PLUGIN_ROOT}/references/react-native.md` and `${CLAUDE_PLUGIN_ROOT}/references/qa-workflows.md` for full config.
+Expo projects use EAS Workflows with a first-class `type: maestro` job — see `${CLAUDE_PLUGIN_ROOT}/skills/maestro-testing/references/react-native.md` and `${CLAUDE_PLUGIN_ROOT}/skills/maestro-testing/references/qa-workflows.md` for full config.
 
 ```yaml
 # .eas/workflows/e2e-test.yml

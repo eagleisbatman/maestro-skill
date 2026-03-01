@@ -1,6 +1,0 @@
-{
-  "name": "maestro-testing",
-  "version": "1.0.0",
-  "description": "Generate and manage Maestro test flows for mobile (Android, iOS) and web apps. Covers React Native, Expo, Flutter, Swift, Kotlin, Jetpack Compose, SwiftUI, UIKit, Capacitor, Ionic, and web desktop testing.",
-  "skills": ["skills/*.md"]
-}
